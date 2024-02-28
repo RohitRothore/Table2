@@ -1,0 +1,101 @@
+
+.table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar
+  }
+  
+  .table td,
+  .table th {
+  border: 1px solid #d1d4e7;
+  border: 1px solid #abacb7; 
+  }
+  
+  .table:not(.table-sm):not(.table-md):not(.dataTable) td,
+  .table:not(.table-sm):not(.table-md):not(.dataTable) th {
+  padding: 0 15px;
+  height: 35px;
+  vertical-align: middle;
+  white-space: nowrap;
+  }
+  
+  .page-item .page-link {
+  color: rgb(20 184 166);
+  border-radius: 3px;
+  margin: 0 3px;
+  display: flex;
+  padding-left: 5px;
+  padding-right: 5px;
+  }
+  
+  .page-item.active .page-link {
+  background-color: rgb(20 184 166);
+  border-color: rgb(20 184 166);
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  }
+  
+  .page-item.disabled .page-link {
+  border-color: transparent;
+  background-color: #f9fafe;
+  color: #6777ef;
+  opacity: .6;
+  
+  }
+  
+  .page-link {
+  border-color: transparent;
+  background-color: #f9fafe;
+  font-weight: 600;
+  }
+  
+  .page-link:hover {
+  background-color: rgb(20 184 166);
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-color: transparent;
+  }
+  
+  .page-link:focus {
+  box-shadow: none;
+  }
+  
+  .FixedHeader {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: rgb(255, 255, 255);
+  }
+  
+  .form-control{
+    padding: 4px;
+    border-radius: 4px;
+    outline: none;
+    transition: all;
+    transition-duration: 50ms;
+    border: 2px solid rgb(181, 177, 177);
+  }
+  
+  .form-control:focus{
+    border: 4px solid rgb(20 184 166);
+  
+  }
+  
+  .table-head{
+    background-color: rgb(20 184 166);
+    color: white;
+  }
+  
+  .pagination-content{
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 8px;
+  }
+ 
